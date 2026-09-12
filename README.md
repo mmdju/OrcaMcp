@@ -30,7 +30,7 @@ Claude Desktop / Cursor (`mcp.json` style):
 }
 ```
 
-Then just talk: "what rank is Godfather on IMDb and Letterboxd?", "a good action movie after 2022 rated above 7", "in what order do I watch Godfather?", "where can I stream Dune?".
+Then just talk: "what rank is Godfather on IMDb and Letterboxd?", "a good sci-fi movie after 2020 rated above 8", "who directed Dune and what else did they make?", "where can I watch Breaking Bad?".
 
 ## 12 tools
 
