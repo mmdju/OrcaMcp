@@ -75,4 +75,4 @@ This product uses the TMDB API but is not endorsed or certified by TMDB. See htt
 
 ## لایسنس
 
-MIT - ببین [LICENSE](LICENSE). نکته‌های امنیتی تو [SECURITY.md](SECURITY.md).
+ریپوی ویترین (فقط داک، بدون سورس) - ببین [LICENSE](LICENSE). نکته‌های امنیتی تو [SECURITY.md](SECURITY.md).
