@@ -73,4 +73,4 @@ Free public service on Cloudflare Workers. Fair use applies - if you hammer it, 
 
 ## License
 
-MIT - see [LICENSE](LICENSE). Security notes in [SECURITY.md](SECURITY.md).
+Showcase repository (docs only, no source published) - see [LICENSE](LICENSE). Security notes in [SECURITY.md](SECURITY.md).
