@@ -32,22 +32,31 @@ Claude Desktop / Cursor (`mcp.json` style):
 
 Then just talk: "what rank is Godfather on IMDb and Letterboxd?", "a good sci-fi movie after 2020 rated above 8", "who directed Dune and what else did they make?", "where can I watch Breaking Bad?".
 
-## 12 tools
+## 21 tools
 
 | Tool | What it answers |
 |---|---|
-| `movies_search` | Search films, shows, people by title |
-| `movies_details` | Plot, genres, cast, director, trailer, posters |
-| `movies_discover` | Filter by genre, year, min rating, min votes, sort |
+| `movies_search` | Search films, shows, people by title (EN/FA) |
+| `movies_details` | Plot, genres, all ratings, cast, director, trailer, awards, posters |
+| `movies_discover` | Filter by genre, keyword, studio, year, min rating, min votes, sort |
 | `movies_trending` | What is hot now (day/week) |
 | `movies_where_to_watch` | Netflix, Prime, Disney+ etc. per country |
 | `movies_compare_lists` | IMDb Top 250 rank vs Letterboxd Top 500 rank |
-| `movies_ratings` | TMDB + IMDb scores and votes, all ids resolved |
-| `movies_collection` | Franchise watch order by release date |
+| `movies_ratings` | TMDB + IMDb + Rotten Tomatoes + Metacritic, all ids resolved |
+| `movies_collection` | Franchise watch order with runtime each, total runtime, per-part streaming |
 | `movies_similar` | "Like Whiplash, what next?" |
 | `movies_person` | Bio, photo, top acting and directing credits |
 | `movies_artwork` | Poster, backdrop, logo, banner |
 | `tv_episodes` | Season/episode list with airdates and summaries |
+| `movies_reviews` | What people say: author reviews with ratings |
+| `movies_videos` | Trailers, teasers, clips with YouTube links |
+| `tv_season` | One full season: ratings, runtimes, stills |
+| `tv_episode` | One episode: director, writer, guest stars |
+| `find_by_external_id` | IMDb id (tt...) to TMDB id |
+| `movies_keywords` | Theme words to keyword ids ("zombie", "heist") |
+| `movies_companies` | Studio names to company ids ("A24", "Pixar") |
+| `person_watch_path` | Where to start with an actor/director |
+| `release_calendar` | Upcoming movies / on-air shows |
 
 Notes for agent builders:
 
@@ -60,6 +69,7 @@ Notes for agent builders:
 
 - TMDB (metadata, trending, streaming) - one shared server key, centrally throttled and cached
 - IMDb ratings snapshot (offline dataset, refreshed periodically)
+- Rotten Tomatoes + Metacritic + awards via OMDb (when configured)
 - IMDb Top 250 and Letterboxd Top 500 via our own public APIs
 - TVMaze (episodes), Fanart.tv (artwork), Cinemeta (fallback)
 
