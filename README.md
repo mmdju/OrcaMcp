@@ -1,5 +1,7 @@
 # Orca MCP - Movie/TV intelligence for AI agents
 
+![Orca MCP banner](assets/OrcaMcp.png)
+
 A public MCP server that gives AI agents real movie and TV knowledge: search, ratings across sources, IMDb Top 250 and Letterboxd Top 500 ranks, streaming availability, episodes, artwork. Read-only, no key needed.
 
 **Live endpoint:** `https://orca-mcp.mmdju.workers.dev/mcp` (Streamable HTTP, stateless)
